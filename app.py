@@ -8,7 +8,7 @@ from risk_engine import classify_risk
 from email_alert import send_email_alert
 
 st.set_page_config(layout="wide")
-st.title("💧 AI Water Intelligence Monitoring System")
+st.title("💧Water Quality Management And Risk Analysis")
 
 # Load Model
 model = joblib.load("model.pkl")
